@@ -867,7 +867,7 @@ Trash Pickers &amp; Grabbers  
                                         <color key="strokeColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Click here to take a sustainable style quiz!">
+                                        <fragment content="Click here to find sustainable fashion!">
                                             <attributes>
                                                 <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Book"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -991,7 +991,7 @@ Trash Pickers &amp; Grabbers  
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nPf-Y2-4zb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-722" y="809"/>
+            <point key="canvasLocation" x="98.550724637681171" y="762.72321428571422"/>
         </scene>
         <!--Slow Fashion View Controller-->
         <scene sceneID="1LW-Qh-fyA">
@@ -1007,17 +1007,28 @@ Trash Pickers &amp; Grabbers  
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7hM-qZ-w0c">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Style Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFl-zy-EDa">
-                                                <rect key="frame" x="57" y="22" width="301" height="39"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sustainable Fashion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFl-zy-EDa">
+                                                <rect key="frame" x="32" y="14" width="326" height="67"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="39" id="pno-Zq-IYE"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="56"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="40"/>
                                                 <color key="textColor" red="0.98382741210000002" green="0.97363859419999998" blue="0.91371673350000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pem-d5-Lzr">
-                                                <rect key="frame" x="38" y="89" width="141" height="128"/>
+                                                <rect key="frame" x="32" y="109" width="141" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XS-sJ-QKU">
+                                                <rect key="frame" x="18" y="96" width="6" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
+                                                <color key="textColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UfB-Or-Aud">
+                                                <rect key="frame" x="198" y="109" width="141" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -3283,7 +3294,7 @@ Pad Thai Sauce:
     <inferredMetricsTieBreakers>
         <segue reference="8M1-ls-CG8"/>
         <segue reference="Ifn-tl-hlN"/>
-        <segue reference="oyP-dr-LxI"/>
+        <segue reference="Ohc-yD-CdJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>

@@ -323,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoGreen/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = GoGreenVersion2;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Green";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -351,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoGreen/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = GoGreenVersion2;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Green";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
