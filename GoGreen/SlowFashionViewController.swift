@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 class SlowFashionViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -14,6 +13,14 @@ class SlowFashionViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func cdURL(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "https://christydawn.com/collections/all?utm_medium=cpc&utm_source=cpc-branded&utm_campaign=BrandedUS&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLVNBQ_EjmutPw2TfXvg7l_VkGR_zTyRUALDmjtQXQj-Ctg1IdUV_o0aAmBXEALw_wcB&gclsrc=aw.ds")!)
+    }
+    
+    
+
     
 
     /*
