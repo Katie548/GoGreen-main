@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DD6CCA328870FD7000D748C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CCA228870FD7000D748C /* AppDelegate.swift */; };
+		5DD6CCA528870FD7000D748C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CCA428870FD7000D748C /* SceneDelegate.swift */; };
+		5DD6CCA728870FD7000D748C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CCA628870FD7000D748C /* ViewController.swift */; };
+		5DD6CCAA28870FD7000D748C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6CCA828870FD7000D748C /* Main.storyboard */; };
+		5DD6CCAD28870FD7000D748C /* GoGreen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CCAB28870FD7000D748C /* GoGreen.xcdatamodeld */; };
+		5DD6CCAF28870FDA000D748C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6CCAE28870FDA000D748C /* Assets.xcassets */; };
+		5DD6CCB228870FDA000D748C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6CCB028870FDA000D748C /* LaunchScreen.storyboard */; };
+		9CE5AC882889C71F007E53A9 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5AC872889C71F007E53A9 /* SupportViewController.swift */; };
+		9CE5AC8A2889DC2B007E53A9 /* ProtestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5AC892889DC2B007E53A9 /* ProtestViewController.swift */; };
+		9CE5AC8C2889F477007E53A9 /* PhoneBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5AC8B2889F477007E53A9 /* PhoneBankViewController.swift */; };
+		9CE5AC8E2889F802007E53A9 /* TipsGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5AC8D2889F802007E53A9 /* TipsGeneratorViewController.swift */; };
+		BD5628882887BC9C000F841B /* VeganRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5628872887BC9C000F841B /* VeganRecipesViewController.swift */; };
+		BD56288A2887BCFF000F841B /* ClimateChangeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5628892887BCFF000F841B /* ClimateChangeActionViewController.swift */; };
+		BD56288C2887BD24000F841B /* SlowFashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD56288B2887BD24000F841B /* SlowFashionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DD6CC9F28870FD7000D748C /* GoGreenVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGreenVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD6CCA228870FD7000D748C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DD6CCA428870FD7000D748C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DD6CCA628870FD7000D748C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DD6CCA928870FD7000D748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DD6CCAC28870FD7000D748C /* GoGreen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoGreen.xcdatamodel; sourceTree = "<group>"; };
+		5DD6CCAE28870FDA000D748C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DD6CCB128870FDA000D748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DD6CCB328870FDA000D748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE5AC872889C71F007E53A9 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		9CE5AC892889DC2B007E53A9 /* ProtestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtestViewController.swift; sourceTree = "<group>"; };
+		9CE5AC8B2889F477007E53A9 /* PhoneBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBankViewController.swift; sourceTree = "<group>"; };
+		9CE5AC8D2889F802007E53A9 /* TipsGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsGeneratorViewController.swift; sourceTree = "<group>"; };
+		BD5628872887BC9C000F841B /* VeganRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganRecipesViewController.swift; sourceTree = "<group>"; };
+		BD5628892887BCFF000F841B /* ClimateChangeActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeActionViewController.swift; sourceTree = "<group>"; };
+		BD56288B2887BD24000F841B /* SlowFashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowFashionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DD6CC9C28870FD7000D748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DD6CC9628870FD7000D748C = {
+			isa = PBXGroup;
+			children = (
+				5DD6CCA128870FD7000D748C /* GoGreen */,
+				5DD6CCA028870FD7000D748C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DD6CCA028870FD7000D748C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6CC9F28870FD7000D748C /* GoGreenVersion2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD6CCA128870FD7000D748C /* GoGreen */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6CCA228870FD7000D748C /* AppDelegate.swift */,
+				5DD6CCA428870FD7000D748C /* SceneDelegate.swift */,
+				5DD6CCA628870FD7000D748C /* ViewController.swift */,
+				9CE5AC872889C71F007E53A9 /* SupportViewController.swift */,
+				BD5628872887BC9C000F841B /* VeganRecipesViewController.swift */,
+				BD5628892887BCFF000F841B /* ClimateChangeActionViewController.swift */,
+				BD56288B2887BD24000F841B /* SlowFashionViewController.swift */,
+				9CE5AC892889DC2B007E53A9 /* ProtestViewController.swift */,
+				5DD6CCA828870FD7000D748C /* Main.storyboard */,
+				9CE5AC8D2889F802007E53A9 /* TipsGeneratorViewController.swift */,
+				9CE5AC8B2889F477007E53A9 /* PhoneBankViewController.swift */,
+				5DD6CCAE28870FDA000D748C /* Assets.xcassets */,
+				5DD6CCB028870FDA000D748C /* LaunchScreen.storyboard */,
+				5DD6CCB328870FDA000D748C /* Info.plist */,
+				5DD6CCAB28870FD7000D748C /* GoGreen.xcdatamodeld */,
+			);
+			path = GoGreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DD6CC9E28870FD7000D748C /* GoGreenVersion2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD6CCB628870FDA000D748C /* Build configuration list for PBXNativeTarget "GoGreenVersion2" */;
+			buildPhases = (
+				5DD6CC9B28870FD7000D748C /* Sources */,
+				5DD6CC9C28870FD7000D748C /* Frameworks */,
+				5DD6CC9D28870FD7000D748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoGreenVersion2;
+			productName = GoGreen;
+			productReference = 5DD6CC9F28870FD7000D748C /* GoGreenVersion2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DD6CC9728870FD7000D748C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5DD6CC9E28870FD7000D748C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DD6CC9A28870FD7000D748C /* Build configuration list for PBXProject "GoGreenVersion2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DD6CC9628870FD7000D748C;
+			productRefGroup = 5DD6CCA028870FD7000D748C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD6CC9E28870FD7000D748C /* GoGreenVersion2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD6CC9D28870FD7000D748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD6CCB228870FDA000D748C /* LaunchScreen.storyboard in Resources */,
+				5DD6CCAF28870FDA000D748C /* Assets.xcassets in Resources */,
+				5DD6CCAA28870FD7000D748C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD6CC9B28870FD7000D748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE5AC8A2889DC2B007E53A9 /* ProtestViewController.swift in Sources */,
+				5DD6CCA728870FD7000D748C /* ViewController.swift in Sources */,
+				5DD6CCA328870FD7000D748C /* AppDelegate.swift in Sources */,
+				9CE5AC882889C71F007E53A9 /* SupportViewController.swift in Sources */,
+				9CE5AC8E2889F802007E53A9 /* TipsGeneratorViewController.swift in Sources */,
+				BD56288A2887BCFF000F841B /* ClimateChangeActionViewController.swift in Sources */,
+				9CE5AC8C2889F477007E53A9 /* PhoneBankViewController.swift in Sources */,
+				BD5628882887BC9C000F841B /* VeganRecipesViewController.swift in Sources */,
+				5DD6CCA528870FD7000D748C /* SceneDelegate.swift in Sources */,
+				5DD6CCAD28870FD7000D748C /* GoGreen.xcdatamodeld in Sources */,
+				BD56288C2887BD24000F841B /* SlowFashionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DD6CCA828870FD7000D748C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD6CCA928870FD7000D748C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DD6CCB028870FDA000D748C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD6CCB128870FDA000D748C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DD6CCB428870FDA000D748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DD6CCB528870FDA000D748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DD6CCB728870FDA000D748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoGreen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GoGreenVersion2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK2022.GoGreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DD6CCB828870FDA000D748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoGreen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GoGreenVersion2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK2022.GoGreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DD6CC9A28870FD7000D748C /* Build configuration list for PBXProject "GoGreenVersion2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD6CCB428870FDA000D748C /* Debug */,
+				5DD6CCB528870FDA000D748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD6CCB628870FDA000D748C /* Build configuration list for PBXNativeTarget "GoGreenVersion2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD6CCB728870FDA000D748C /* Debug */,
+				5DD6CCB828870FDA000D748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DD6CCAB28870FD7000D748C /* GoGreen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DD6CCAC28870FD7000D748C /* GoGreen.xcdatamodel */,
+			);
+			currentVersion = 5DD6CCAC28870FD7000D748C /* GoGreen.xcdatamodel */;
+			path = GoGreen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DD6CC9728870FD7000D748C /* Project object */;
+}
