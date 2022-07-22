@@ -976,32 +976,6 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                                 <rect key="frame" x="177" y="151" width="237" height="173"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9gr-fa-Iqx">
-                                                <rect key="frame" x="224" y="343" width="143" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Button">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Whimsy and Row">
-                                                            <attributes>
-                                                                <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Book"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.corner">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="imgURL:" destination="itb-d2-y58" eventType="touchUpInside" id="3tR-Io-YK8"/>
-                                                    <action selector="imgtURL:" destination="itb-d2-y58" eventType="touchUpInside" id="RrI-oS-vzY"/>
-                                                </connections>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 - Softgirl" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMA-Ff-3gH">
                                                 <rect key="frame" x="50" y="432" width="80" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1060,6 +1034,25 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="3vv-JM-YkL" kind="presentation" modalPresentationStyle="fullScreen" id="DH4-6M-59c"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wAM-Q2-3tk">
+                                                <rect key="frame" x="224" y="343" width="143" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" red="0.80807763340000005" green="0.89839512109999997" blue="0.82025080920000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Whimsy and Row">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Book"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="whims:" destination="itb-d2-y58" eventType="touchUpInside" id="TCr-g7-WMb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
