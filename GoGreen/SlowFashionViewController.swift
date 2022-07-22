@@ -16,12 +16,21 @@ class SlowFashionViewController: UIViewController {
     
     
     @IBAction func imgURL(_ sender: UIButton) {
-        UIApplication.shared.openURL(URL(string: "https://christydawn.com/collections/all?utm_medium=cpc&utm_source=cpc-branded&utm_campaign=BrandedUS&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLVNBQ_EjmutPw2TfXvg7l_VkGR_zTyRUALDmjtQXQj-Ctg1IdUV_o0aAmBXEALw_wcB&gclsrc=aw.ds")!)
+        UIApplication.shared.openURL(URL(string: "https://christydawn.com/")!)
+    }
+    
+    @IBAction func whims(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "https://whimsyandrow.com/")!)
     }
     
     
-    @IBAction func imgtURL(_ sender: UIButton) {
-        UIApplication.shared.openURL(URL(string: "https://whimsyandrow.com/")!)
+    @IBAction func marine(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "https://www.marinelayer.com/")!)
+    }
+    
+    
+    @IBAction func ever(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "https://www.everlane.com/")!)
     }
     
     
