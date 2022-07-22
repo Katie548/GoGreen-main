@@ -1027,7 +1027,7 @@ Trash Pickers &amp; Grabbers  
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sustainable Fashion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFl-zy-EDa">
-                                                <rect key="frame" x="32" y="14" width="326" height="67"/>
+                                                <rect key="frame" x="50" y="56" width="326" height="67"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="39" id="pno-Zq-IYE"/>
                                                 </constraints>
@@ -1035,49 +1035,108 @@ Trash Pickers &amp; Grabbers  
                                                 <color key="textColor" red="0.98382741210000002" green="0.97363859419999998" blue="0.91371673350000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XS-sJ-QKU">
-                                                <rect key="frame" x="18" y="96" width="6" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 - Cottagecore" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XS-sJ-QKU">
+                                                <rect key="frame" x="29" y="125" width="113" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="20"/>
                                                 <color key="textColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGj-FV-uCX">
-                                                <rect key="frame" x="66" y="260" width="259" height="54"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="54" id="6WR-II-HvH"/>
-                                                </constraints>
-                                                <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ae9-Oa-nrx">
+                                                <rect key="frame" x="168" y="1088" width="78" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
+                                                <buttonConfiguration key="configuration" style="plain" title="Go Back"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alc-wY-qad">
+                                                <rect key="frame" x="54" y="332" width="123" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="ChristyDawn">
+                                                        <fragment content="Chrisy Dawn">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.98382741210000002" green="0.97363859419999998" blue="0.91371673350000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Book"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.corner">
                                                         <integer key="value" value="15"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="cdURL:" destination="itb-d2-y58" eventType="touchUpInside" id="q5m-Ry-eau"/>
-                                                    <action selector="didTap350:" destination="ukj-sG-QU8" eventType="touchUpInside" id="166-sz-4Xz"/>
-                                                    <action selector="org:" destination="ukj-sG-QU8" eventType="touchUpInside" id="Qph-UT-0R6"/>
-                                                    <action selector="orgURL:" destination="wIu-bc-xru" eventType="touchUpInside" id="2Jy-sY-X5z"/>
-                                                    <action selector="orgURL:" destination="ukj-sG-QU8" eventType="touchUpInside" id="stq-If-AaK"/>
+                                                    <action selector="imgURL:" destination="itb-d2-y58" eventType="touchUpInside" id="c4A-ih-ruC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQa-Cd-t2l">
-                                                <rect key="frame" x="107" y="185" width="67" height="31"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-22 at 5.00.33 AM" translatesAutoresizingMaskIntoConstraints="NO" id="CJU-zb-YUq">
+                                                <rect key="frame" x="0.0" y="158" width="229" height="159"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYA-Br-iia">
+                                                <rect key="frame" x="244" y="325" width="103" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" systemColor="systemTealColor"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Bree Dress in Mauve Floral ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="9" name="BodoniSvtyTwoOSITCTT-Book"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZM-5G-CiD">
+                                                <rect key="frame" x="51" y="314" width="126" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" systemColor="systemTealColor"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="The Adele Dress in Daffodil Fields">
+                                                        <attributes>
+                                                            <font key="NSFont" size="9" name="BodoniSvtyTwoOSITCTT-Book"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-22 at 5.07.26 AM" translatesAutoresizingMaskIntoConstraints="NO" id="kTa-mE-Ea3">
+                                                <rect key="frame" x="177" y="151" width="237" height="173"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gr-fa-Iqx">
+                                                <rect key="frame" x="224" y="343" width="143" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Whimsy and Row">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Book"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.corner">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="imgURL:" destination="itb-d2-y58" eventType="touchUpInside" id="3tR-Io-YK8"/>
+                                                    <action selector="imgtURL:" destination="itb-d2-y58" eventType="touchUpInside" id="RrI-oS-vzY"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.82352941180000006" green="0.89411771299999998" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2085,10 +2144,10 @@ Vegan parmesan (for serving)
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8m5-UO-SWJ">
-                                <rect key="frame" x="0.0" y="44" width="620.5" height="1556"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="1556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pfq-lD-n75">
-                                        <rect key="frame" x="0.0" y="0.0" width="620.5" height="1600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cak-e9-m0N">
                                                 <rect key="frame" x="33" y="-47" width="349" height="219"/>
@@ -2180,7 +2239,7 @@ Vegan parmesan (for serving)
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rT2-3d-2Rp">
-                                                <rect key="frame" x="33" y="420" width="554.5" height="307"/>
+                                                <rect key="frame" x="33" y="420" width="348" height="307"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="307" id="jws-kw-M9f"/>
                                                 </constraints>
@@ -3354,7 +3413,7 @@ Pad Thai Sauce:
         <segue reference="TjB-zo-uEl"/>
         <segue reference="mLT-ww-X7K"/>
         <segue reference="Ohc-yD-CdJ"/>
-        <segue reference="mAf-Yl-iZZ"/>
+        <segue reference="wrb-Vr-GDa"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
@@ -3372,11 +3431,16 @@ Pad Thai Sauce:
         <image name="Screen Shot 2022-07-19 at 1.29.05 PM-1" width="492" height="403"/>
         <image name="Screen Shot 2022-07-19 at 1.44.50 PM" width="652" height="615"/>
         <image name="Screen Shot 2022-07-19 at 12.53.20 PM" width="381" height="312"/>
+        <image name="Screen Shot 2022-07-22 at 5.00.33 AM" width="699" height="942"/>
+        <image name="Screen Shot 2022-07-22 at 5.07.26 AM" width="770" height="1179"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
