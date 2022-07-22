@@ -265,7 +265,7 @@
             <objects>
                 <viewController id="Bo9-SE-hGc" customClass="ProtestViewController" customModule="GoGreenVersion2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O8x-HO-YDu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="e2A-di-1Iw"/>
                         <color key="backgroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -285,39 +285,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How to Organize" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zt-wZ-A7x">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Organize" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zt-wZ-A7x">
                                 <rect key="frame" x="53" y="76" width="309" height="177"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="177" id="GLp-VB-el9"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="56"/>
                                 <color key="textColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZLw-ga-rmh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZLw-ga-rmh">
                                 <rect key="frame" x="0.0" y="240" width="511" height="319"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="319" id="97N-HL-NM0"/>
-                                    <constraint firstAttribute="width" constant="511" id="tfE-v9-gFV"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="CYz-xd-67b">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="CYz-xd-67b">
                                 <rect key="frame" x="-98" y="462" width="512" height="400"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="512" id="vjW-Eo-Fh2"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5l-mq-teg">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5l-mq-teg">
                                 <rect key="frame" x="-88" y="472" width="78" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go Back"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3J-kr-Wz1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3J-kr-Wz1">
                                 <rect key="frame" x="20" y="299" width="218" height="210"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="210" id="fUJ-KU-ZpI"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">1. Assemble a team (family, friends, neighbors, colleagues, etc.) 
 2. Partner with community organizations
 3. Pick a cleanup site
@@ -328,8 +320,20 @@
                                 <color key="textColor" red="0.98382999999999998" green="0.97363999999999995" blue="0.91371999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bV2-dz-Yio">
-                                <rect key="frame" x="176" y="557" width="218" height="210"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxU-GI-uWd">
+                                <rect key="frame" x="178" y="831" width="85" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60392159219999997" green="0.7019608021" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.97254908080000002" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Go Back"/>
+                                <connections>
+                                    <segue destination="p3I-0I-ILv" kind="presentation" id="8M1-ls-CG8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bV2-dz-Yio">
+                                <rect key="frame" x="176" y="545" width="218" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Materials:
 Volunteers  
 Garbage bags (both Landfill and Recycling bags)
@@ -340,41 +344,9 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                 <color key="textColor" red="0.9838531613" green="0.97356921429999999" blue="0.91763883830000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxU-GI-uWd">
-                                <rect key="frame" x="178" y="831" width="85" height="31"/>
-                                <color key="backgroundColor" red="0.60392159219999997" green="0.7019608021" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="a2X-4d-2S5"/>
-                                </constraints>
-                                <color key="tintColor" red="0.98431372640000003" green="0.97254908080000002" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Go Back"/>
-                                <connections>
-                                    <segue destination="p3I-0I-ILv" kind="presentation" id="8M1-ls-CG8"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BFs-Tq-lYK"/>
                         <color key="backgroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="CYz-xd-67b" firstAttribute="centerY" secondItem="bV2-dz-Yio" secondAttribute="centerY" id="4LV-MT-eas"/>
-                            <constraint firstItem="ZLw-ga-rmh" firstAttribute="leading" secondItem="6Zb-dQ-JbJ" secondAttribute="leading" id="5wa-lq-NvD"/>
-                            <constraint firstItem="CYz-xd-67b" firstAttribute="bottom" secondItem="AxU-GI-uWd" secondAttribute="bottom" id="7pw-ME-iOl"/>
-                            <constraint firstItem="ZLw-ga-rmh" firstAttribute="top" secondItem="BFs-Tq-lYK" secondAttribute="top" constant="196" id="8Z5-co-Lxl"/>
-                            <constraint firstItem="e3J-kr-Wz1" firstAttribute="leading" secondItem="6Zb-dQ-JbJ" secondAttribute="leadingMargin" id="C14-0n-FrE"/>
-                            <constraint firstItem="bV2-dz-Yio" firstAttribute="top" secondItem="e3J-kr-Wz1" secondAttribute="bottom" constant="48" id="Jfp-Xk-kUP"/>
-                            <constraint firstItem="e3J-kr-Wz1" firstAttribute="top" secondItem="6Zt-wZ-A7x" secondAttribute="bottom" constant="46" id="Lde-lz-DxV"/>
-                            <constraint firstAttribute="trailing" secondItem="CYz-xd-67b" secondAttribute="trailing" id="MKu-eU-Yab"/>
-                            <constraint firstItem="6Zt-wZ-A7x" firstAttribute="centerX" secondItem="AxU-GI-uWd" secondAttribute="centerX" id="R03-tI-VDZ"/>
-                            <constraint firstItem="6Zt-wZ-A7x" firstAttribute="leading" secondItem="BFs-Tq-lYK" secondAttribute="leading" constant="53" id="e65-7u-P5G"/>
-                            <constraint firstItem="AxU-GI-uWd" firstAttribute="top" secondItem="bV2-dz-Yio" secondAttribute="bottom" constant="64" id="jjy-Xm-eU4"/>
-                            <constraint firstItem="v5l-mq-teg" firstAttribute="top" secondItem="6Zb-dQ-JbJ" secondAttribute="top" constant="472" id="lPY-uD-0FP"/>
-                            <constraint firstItem="6Zt-wZ-A7x" firstAttribute="centerX" secondItem="6Zb-dQ-JbJ" secondAttribute="centerX" id="mvw-uQ-m1p"/>
-                            <constraint firstItem="AxU-GI-uWd" firstAttribute="bottom" secondItem="BFs-Tq-lYK" secondAttribute="bottom" id="pWj-Se-7Su"/>
-                            <constraint firstItem="6Zt-wZ-A7x" firstAttribute="top" secondItem="BFs-Tq-lYK" secondAttribute="top" constant="32" id="qB6-IW-woj"/>
-                            <constraint firstItem="BFs-Tq-lYK" firstAttribute="trailing" secondItem="e3J-kr-Wz1" secondAttribute="trailing" constant="176" id="w39-H2-lQN"/>
-                            <constraint firstItem="bV2-dz-Yio" firstAttribute="trailing" secondItem="6Zb-dQ-JbJ" secondAttribute="trailingMargin" id="zyE-xE-pCh"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWZ-DQ-dwQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -389,14 +361,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fl-SH-hrb">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fl-SH-hrb">
                                 <rect key="frame" x="78" y="77" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="fDR-Qi-mY8"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="350.org">
                                             <attributes>
@@ -406,7 +379,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -419,14 +392,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="orgURL:" destination="wIu-bc-xru" eventType="touchUpInside" id="oHW-DB-1cq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8c-Bs-97O">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s8c-Bs-97O">
                                 <rect key="frame" x="78" y="168" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="CjN-9m-Djm"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Greenpeace">
                                             <attributes>
@@ -436,7 +410,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -446,14 +420,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="greenPeace:" destination="wIu-bc-xru" eventType="touchUpInside" id="K3h-kg-onQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBB-2S-3vr">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FBB-2S-3vr">
                                 <rect key="frame" x="78" y="259" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="bik-WU-Shx"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Earth Island Institute">
                                             <attributes>
@@ -463,7 +438,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -473,14 +448,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="earthInstitute:" destination="wIu-bc-xru" eventType="touchUpInside" id="qmE-x3-ZUT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzZ-Be-ehK">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzZ-Be-ehK">
                                 <rect key="frame" x="78" y="352" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="zm8-eX-Ukd"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Rainforest Action Network">
                                             <attributes>
@@ -490,7 +466,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -500,14 +476,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="rainforestNetwork:" destination="wIu-bc-xru" eventType="touchUpInside" id="Jpd-S3-lbq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egn-wf-22d">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Egn-wf-22d">
                                 <rect key="frame" x="78" y="444" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="11R-KF-mg7"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Friends of the Earth">
                                             <attributes>
@@ -517,7 +494,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -527,14 +504,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="foe:" destination="wIu-bc-xru" eventType="touchUpInside" id="fqH-FG-Vn8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgS-Ww-AGE">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FgS-Ww-AGE">
                                 <rect key="frame" x="78" y="538" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="sJt-fQ-hv9"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Natural Resources Defense Council">
                                             <attributes>
@@ -544,7 +522,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -554,14 +532,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="nrdc:" destination="wIu-bc-xru" eventType="touchUpInside" id="IAR-qN-CWi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chr-vA-Ili">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chr-vA-Ili">
                                 <rect key="frame" x="78" y="636" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Hf5-aM-Dt8"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Fairtrade International">
                                             <attributes>
@@ -571,7 +550,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -581,14 +560,15 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                     <action selector="fairTrade:" destination="wIu-bc-xru" eventType="touchUpInside" id="QKV-3X-cR1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lD4-fY-m4f">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lD4-fY-m4f">
                                 <rect key="frame" x="78" y="731" width="259" height="54"/>
+                                <color key="backgroundColor" red="0.58085674050000002" green="0.70629578829999995" blue="0.62407833339999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="MX1-2g-8Rs"/>
                                 </constraints>
                                 <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Sunrise Movement">
                                             <attributes>
@@ -598,7 +578,7 @@ Comfortable clothing (outfits you don’t mind getting dirty)</string>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -3075,7 +3055,7 @@ Pad Thai Sauce:
             <objects>
                 <viewController id="p3I-0I-ILv" customClass="TipsGeneratorViewController" customModule="GoGreenVersion2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hc2-mi-19r">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Id-BZ-wdg">
@@ -3103,7 +3083,7 @@ Pad Thai Sauce:
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="S5m-ny-tzA" kind="presentation" modalPresentationStyle="fullScreen" id="lYd-7L-4f7"/>
+                                    <segue destination="S5m-ny-tzA" kind="showDetail" id="lYd-7L-4f7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUh-Hh-cGz">
@@ -3131,11 +3111,11 @@ Pad Thai Sauce:
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="2pB-FY-gaj" kind="presentation" modalPresentationStyle="fullScreen" id="Iig-n0-Y5a"/>
+                                    <segue destination="2pB-FY-gaj" kind="showDetail" id="Iig-n0-Y5a"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU5-pa-oHz">
-                                <rect key="frame" x="20" y="550" width="374" height="101"/>
+                                <rect key="frame" x="20" y="594" width="374" height="111"/>
                                 <attributedString key="attributedText">
                                     <fragment content="-">
                                         <attributes>
@@ -3147,30 +3127,26 @@ Pad Thai Sauce:
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prN-Ov-JQc">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="prN-Ov-JQc">
                                 <rect key="frame" x="55" y="724" width="305" height="65"/>
-                                <color key="backgroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.81047421689999999" green="0.56809306140000004" blue="0.42176765199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="Uoq-Xf-VTc"/>
                                 </constraints>
                                 <color key="tintColor" red="0.82352941180000006" green="0.89411764709999997" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="fixed">
-                                    <backgroundConfiguration key="background" cornerRadius="20">
-                                        <color key="backgroundColor" red="0.88845723870000004" green="0.71204906700000004" blue="0.58428871630000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Click here to learn some organizing tips!">
                                             <attributes>
+                                                <color key="NSColor" red="0.94875842330000004" green="0.94523698089999997" blue="0.87512421610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Book"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.88845723870000004" green="0.71204906700000004" blue="0.58428871630000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
+                                    <color key="titleColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="pressedButton:" destination="p3I-0I-ILv" eventType="touchUpInside" id="vmJ-cp-svW"/>
                                 </connections>
@@ -3197,7 +3173,7 @@ Pad Thai Sauce:
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGa-tL-zD2">
-                                <rect key="frame" x="69" y="439" width="276" height="103"/>
+                                <rect key="frame" x="99" y="439" width="217" height="103"/>
                                 <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="103" id="0xl-D6-EG9"/>
@@ -3206,9 +3182,9 @@ Pad Thai Sauce:
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Community Clean Up">
+                                        <fragment content="Clean Up">
                                             <attributes>
-                                                <color key="NSColor" red="0.98382741210000002" green="0.97363859419999998" blue="0.91371673350000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="NSColor" red="0.96442371609999999" green="0.95699292420000004" blue="0.88687080139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="30" name="BodoniSvtyTwoOSITCTT-Book"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -3261,8 +3237,9 @@ Pad Thai Sauce:
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S5m-ny-tzA" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="hoK-OS-5hg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="t2l-x6-VCy">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3291,7 +3268,7 @@ Pad Thai Sauce:
             <objects>
                 <viewController id="ez2-aK-Imo" customClass="PhoneBankViewController" customModule="GoGreenVersion2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vSC-3A-kay">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="heA-5A-1ha"/>
                         <color key="backgroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3308,7 +3285,7 @@ Pad Thai Sauce:
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2pB-FY-gaj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="g77-sm-OOz">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
@@ -3333,12 +3310,11 @@ Pad Thai Sauce:
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7Ci-5U-fcb"/>
-        <segue reference="8M1-ls-CG8"/>
+        <segue reference="TjB-zo-uEl"/>
         <segue reference="mLT-ww-X7K"/>
         <segue reference="DH4-6M-59c"/>
-        <segue reference="blq-n0-RPW"/>
-        <segue reference="5bm-hk-5L1"/>
+        <segue reference="Ohc-yD-CdJ"/>
+        <segue reference="m4V-Rf-1T9"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.8235319257" green="0.89536607270000002" blue="0.82352042199999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
