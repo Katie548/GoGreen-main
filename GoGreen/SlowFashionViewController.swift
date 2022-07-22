@@ -24,6 +24,17 @@ class SlowFashionViewController: UIViewController {
         UIApplication.shared.openURL(URL(string: "https://whimsyandrow.com/")!)
     }
     
+    @IBAction func marine(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "https://www.marinelayer.com/")!)
+    }
+    
+    
+    
+    @IBAction func ever(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "https://www.everlane.com/")!)
+    }
+    
+    
     
    
     
