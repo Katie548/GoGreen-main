@@ -3134,34 +3134,6 @@ Pad Thai Sauce:
                                     <segue destination="2pB-FY-gaj" kind="presentation" modalPresentationStyle="fullScreen" id="Iig-n0-Y5a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGa-tL-zD2">
-                                <rect key="frame" x="99" y="442" width="217" height="103"/>
-                                <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="103" id="0xl-D6-EG9"/>
-                                </constraints>
-                                <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Community Clean Up">
-                                            <attributes>
-                                                <color key="NSColor" red="0.98382741210000002" green="0.97363859419999998" blue="0.91371673350000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="BodoniSvtyTwoOSITCTT-Book"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="9yQ-w7-6hU" kind="presentation" modalPresentationStyle="fullScreen" id="7Ci-5U-fcb"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU5-pa-oHz">
                                 <rect key="frame" x="20" y="550" width="374" height="101"/>
                                 <attributedString key="attributedText">
@@ -3222,6 +3194,34 @@ Pad Thai Sauce:
                                 </state>
                                 <connections>
                                     <segue destination="9yl-lN-gUA" kind="presentation" modalPresentationStyle="fullScreen" id="blq-n0-RPW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGa-tL-zD2">
+                                <rect key="frame" x="69" y="439" width="276" height="103"/>
+                                <color key="backgroundColor" red="0.60392156860000001" green="0.70196078429999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="0xl-D6-EG9"/>
+                                </constraints>
+                                <color key="tintColor" red="0.60409939290000003" green="0.70324486490000004" blue="0.62744170430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Community Clean Up">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98382741210000002" green="0.97363859419999998" blue="0.91371673350000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="BodoniSvtyTwoOSITCTT-Book"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="9yQ-w7-6hU" kind="presentation" modalPresentationStyle="fullScreen" id="7Ci-5U-fcb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3333,6 +3333,7 @@ Pad Thai Sauce:
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="7Ci-5U-fcb"/>
         <segue reference="8M1-ls-CG8"/>
         <segue reference="mLT-ww-X7K"/>
         <segue reference="DH4-6M-59c"/>
