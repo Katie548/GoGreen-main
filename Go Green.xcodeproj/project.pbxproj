@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DD6CC9A28870FD7000D748C /* Build configuration list for PBXProject "GoGreenVersion2" */;
+			buildConfigurationList = 5DD6CC9A28870FD7000D748C /* Build configuration list for PBXProject "Go Green" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DD6CC9A28870FD7000D748C /* Build configuration list for PBXProject "GoGreenVersion2" */ = {
+		5DD6CC9A28870FD7000D748C /* Build configuration list for PBXProject "Go Green" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DD6CCB428870FDA000D748C /* Debug */,
